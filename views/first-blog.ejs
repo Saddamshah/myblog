@@ -1,62 +1,87 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>first Blog</title>
-</head>
-<body>
-    <h1>What is Programming?</h1>
-    <div>
-        <p>"Everybody should learn to program a computer because it teaches you how to think." 
-            -Steve Jobs  in 1995
-            
-            Being a self-taught programmer for the past 2 years, let me share with you an introductory article on computer programming.
-            
-            The basic questions that we all face as a beginner are:
-            What is computer programming?
-            How do programs work?
-            And more importantly, who writes these programs?
-            
-            Let us tackle these questions one by one.
-            
-            1. What is computer programming?
-            In simple terms, computer programming is the process of designing and building an executable computer program (code) to accomplish a specific computing result (computer output ).
-            
-            No matter how things change in the computer world, the following 3 steps remain the same and on which every computation program is based on.
-            Step One: Take Input.
-            Step Two: Process Input
-            Set Three: Generate Output.
-            
-            Step One: Take Input 
-             The program is not going to work until we give some input to the computer. So the question then becomes: how to provide input to the computers? While using computers, we give these inputs through user interfaces: keyboard, desktop applications, mouse, etc. and we get an output on the screen based on our inputs.
-             
-            Now computation programming works similarly, meaning input is to be given to the program for it to produce an output. There are two types of people who can provide input to the program: the first one is programmers themselves, and the other one can be users.
-            
-            A programmer creates a program for users to use. The programmer's job is to solve a real-world problem by writing a computer code.
-            
-            A computer only understands the machine language, that is, a binary code which is nothing but 0 & 1 (zero and one ). You can learn more about binary at here:
-            https://www.computerhope.com/jargon/b/binary.htm
-            
-            What is Binary? - Computer Hope
-            Binary may refer to any of the following: 1. Binary is a base-2 number system invented by Gottfried Leibniz that consists of only two numbers: 0 and 1. This number system is the basis for all binary code, which is used to write data such as the computer processor instructions used every day.
-            
-            The programmer interacts with the computer by using a programming language, and then it is converted into the binary code system so that the computer can understand.
-            
-            But, there are so many programming languages out there which can be extremely confusing.
-            So, which one is the best? 
-            
-             Well, it depends on the purpose, on what kind of program you are trying to build. For example: if you want to become a web developer, then Javascript is the best choice. On the other hand, for game developers, C/C++ is the best choice while for Android Development, Java/Kotlin is the language to go for.
-            
-            Step Two: Process the Input
-            Once you provide the input using any programming language, then it converts the program into binary code, which the computer then processes. And finally, we go to the third step where we get an output.
-            
-            Set Three: Generate Output.
-            Not every time you get the desired output. There are problems that not even computers can solve. You can explore these problems in "Theoretical Computer Science". But these are intermediary topics.
-             
-            The above-mentioned steps make the baslic structure of any program. With the appropriate language and tools, a program can be developed that accepts an input and results in an output.
-            
-            Thank You.</p>
+<%- include('header') %>
+    <div class="container">
+        <h2 class="my-5 text-center font-weight-normal">What is Programming?</h2>
     </div>
-</body>
-</html>
+    <div class="container-fluid mx-auto row">
+        <div class="col-md-8 mx-auto ">
+            <p class="lead font-italic  text-center">"Everybody should learn to program a computer because it teaches you how to think." 
+                <br>-Steve Jobs  in 1995</p>
+            
+                <br>
+                <p class="lead ">Being a self-taught programmer for the past 2 years, let me share with you an introductory article on computer programming. The basic questions that we all face as a beginner are: <br> <br>
+                What is computer programming? <br>
+                How do programs work? <br>
+                And more importantly, who writes these programs?<br><br>
+                Let us tackle these questions one by one.
+                </p>
+               
+                <br>
+                <h4 class="font-weight-normal">1. What is computer programming?</h4>
+
+                <br>
+
+                <p class="lead">
+                    In simple terms, computer programming is the process of designing and building an executable computer program (code) to accomplish a specific computing result (computer output ). <br><br>
+                    No matter how things change in the computer world, the following 3 steps remain the same and on which every computation program is based on.
+
+                    <ul class="lead">
+                        <li>Step One: Take Input.</li>
+                        <li>Step Two: Process Input</li>
+                        <li>Set Three: Generate Output.</li>
+                    </ul>
+                </p>
+                
+                <br>
+                <h5 class="font-weight-normal">Step One: Take Input</h5>
+                <p class="lead">
+                    The program is not going to work until we give some input to the computer. So the question then becomes: how to provide input to the computers? While using computers, we give these inputs through user interfaces: keyboard, desktop applications, mouse, etc. and we get an output on the screen based on our inputs.
+                    <br><br>
+                    Now computation programming works similarly, meaning input is to be given to the program for it to produce an output. There are two types of people who can provide input to the program: the first one is programmers themselves, and the other one can be users.
+                </p>
+
+                <br>
+
+                <p class="lead font-italic text-center">A programmer creates a program for users to use. The programmer's job is to solve a real-world problem by writing a computer code.</p>
+                
+                <br>
+                <p class="lead">A computer only understands the machine language, that is, a binary code which is nothing but 0 & 1 (zero and one ). You can learn more about binary at 
+                    <a target="_blank" href="https://www.computerhope.com/jargon/b/binary.htm">here</a></p>
+                
+                 <br>
+                 <h5 class="font-weight-normal"> What is Binary? - Computer Hope</h5>
+                <p class="lead">
+                    Binary may refer to any of the following: 1. Binary is a base-2 number system invented by Gottfried Leibniz that consists of only two numbers: 0 and 1. This number system is the basis for all binary code, which is used to write data such as the computer processor instructions used every day. <br><br>
+                    The programmer interacts with the computer by using a programming language, and then it is converted into the binary code system so that the computer can understand.
+                    <br><br>
+                    But, there are so many programming languages out there which can be extremely confusing.
+                    So, which one is the best? 
+                    <br><br>
+                    Well, it depends on the purpose, on what kind of program you are trying to build. For example: if you want to become a web developer, then Javascript is the best choice. On the other hand, for game developers, C/C++ is the best choice while for Android Development, Java/Kotlin is the language to go for.
+                </p>
+
+                <br>
+                <h5 class="font-weight-normal">Step Two: Process the Input</h5>
+                <p class="lead">
+                    Once you provide the input using any programming language, then it converts the program into binary code, which the computer then processes. And finally, we go to the third step where we get an output.
+                </p>
+                <br>
+                
+                <h5 class="font-weight-normal"> Set Three: Generate Output.</h5>
+                <p class="lead">
+                    Not every time you get the desired output. There are problems that not even computers can solve. You can explore these problems in "Theoretical Computer Science". But these are intermediary topics.
+                    <br><br>
+                    The above-mentioned steps make the baslic structure of any program. With the appropriate language and tools, a program can be developed that accepts an input and results in an output.
+                    <br><br>
+                    Thank You.
+                </p>
+                <br>
+                <h5 class="font-weight-normal">Explore More topics </h5>
+                <div class=" justify-content-between">
+                    <a href="/blog/2">How I learned to code?</a> | 
+                    <a href="/blog/3">An Accomplished Programmer!</a>
+                </div>
+                <br>
+                <br>    
+        </div>
+    </div>
+<%- include('footer') %>

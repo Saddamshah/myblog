@@ -1,50 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>second Blog</title>
-</head>
-<body>
-        <h1>How I learned to code? </h1>
-        <div>
-            <p>
-                One of the best things you can do in the world is coding.
-
-What is coding? And how to get started?
-Coding is the act of writing code, and the result of coding is a program. The one who codes the program is called a coder or a programmer.
-
-If you are new into the arena of the programming world, then I suggest that you begin with Web Development. Programming can be daunting and requires a lot of patience. But web development is something that you can start slow and the joy of building and seeing your projects will keep you motivated.
-
-Being a self-taught programmer, I myself started with Web Development, and have been doing it since the past 2 years. And I can tell you with all my sincerity that I have been loving it. I have developed personal numerous projects which have helped me land a job as a web developer without any prior experience or any degree in Computer Science. Yes, you heard that right!
-
-To motivate all the self-learning programmers out there, I am here to share my experience with you on how I started with Web Development. 
-
-Any web application will consist of front end and back end. Front-end is the user interface that the user can see and used it to interact with the application. The back-end is where the main business logic is implemented. The back-end consists of a server, application, database, frameworks, etc. This is hidden from the user. 
-
-To build Web Applications, we need the desired tools and here is how you can start. We will be using MERN (MongoDB, Express, ReactJS, NodeJS) stack to develop our web application:
-Front-end Technologies: HTML, CSS, JavaScript.
-Back-end Technologies: PL-SQL/NoSQL, ReactJs, NodeJS.
-Frameworks: Bootstrap, ExpressJs
-IDE: Atom/VS Code
-
-After learning HTML and CSS, look everything around the web and think about how you can create the same look and feel using HTML, CSS and Bootstrap.
-
-After building the layout of the web application, we need to add functionalities for it to work. For that, we will be using JS.
-Learn how to select something in javascript.
-Learn how to manipulate DOM.
-Learn to create functions
-Javascript Data Structure.
-How to manipulate data.
-Learn the Array & Object Method
-Then start creating projects, anything that you can see on the web which you can create only using HTML, CSS, and Javascript. Using these technologies and using a website as a reference, start building your website. Remember to start small and eventually keep adding functionalities as you go on.
-
-After having successfully built the front end, you can dive right into the backend. But that is a topic for another article.
-
-Until then, I hope this article clears the concept regarding the front-end.
-
-Thank You.
-            </p>
+<%- include('header') %>
+        <div class="container">
+            <h2 class="my-5 text-center font-weight-normal">How I learned to code?</h2>
         </div>
-</body>
-</html>
+        <div class="container-fluid mx-auto row">
+            <div class="col-md-8 mx-auto ">
+                <p class="lead font-italic text-center"> One of the best things you can do in the world is coding.</p>
+                <br><br>
+                <h5 class="text-weight-normal">What is coding? And how to get started?</h5>
+                <p class="lead">
+                    Coding is the act of writing code, and the result of coding is a program. The one who codes the program is called a coder or a programmer.
+                    <br><br>
+                    If you are new into the arena of the programming world, then I suggest that you begin with Web Development. Programming can be daunting and requires a lot of patience. But web development is something that you can start slow and the joy of building and seeing your projects will keep you motivated.
+                    <br><br>
+                    Being a self-taught programmer, I myself started with Web Development, and have been doing it since the past 2 years. And I can tell you with all my sincerity that I have been loving it. I have developed personal numerous projects which have helped me land a job as a web developer without any prior experience or any degree in Computer Science. Yes, you heard that right!
+                    <br><br>
+                    To motivate all the self-learning programmers out there, I am here to share my experience with you on how I started with Web Development.
+                    <br><br>
+                    Any web application will consist of front end and back end. Front-end is the user interface that the user can see and used it to interact with the application. The back-end is where the main business logic is implemented. The back-end consists of a server, application, database, frameworks, etc. This is hidden from the user.
+                    <br><br>
+                </p>
+                <h5 class="font-weight-normal">To build Web Applications</h5>
+                <p class="lead">
+                    To build Web Applications, we need the desired tools and here is how you can start. We will be using MERN (MongoDB, Express, ReactJS, NodeJS) stack to develop our web application:
+                </p>    
+                    <ul class="lead">
+                        <li>Front-end Technologies: HTML, CSS, JavaScript.</li>
+                        <li>Back-end Technologies: PL-SQL/NoSQL, ReactJs, NodeJS.</li>
+                        <li>Frameworks: Bootstrap, ExpressJs</li>
+                        <li>IDE: Atom/VS Code</li>
+                    </ul>
+                    <br>
+                    <p class="lead">
+                    After learning HTML and CSS, look everything around the web and think about how you can create the same look and feel using HTML, CSS and Bootstrap.
+                    <br><br>
+                    After building the layout of the web application, we need to add functionalities for it to work. For that, we will be using JS.
+                    </p>
+                    <ul class="lead">
+                        <li>Learn how to select something in javascript.</li>
+                        <li>Learn how to manipulate DOM.</li>
+                        <li>Learn to create functions</li>
+                        <li>Javascript Data Structure.</li>
+                        <li>How to manipulate data.</li>
+                        <li>Learn the Array & Object Method</li>
+                    </ul><br>
+                    <p class="lead">
+                        Then start creating projects, anything that you can see on the web which you can create only using HTML, CSS, and Javascript. Using these technologies and using a website as a reference, start building your website. Remember to start small and eventually keep adding functionalities as you go on.
+                        <br><br>
+                        After having successfully built the front end, you can dive right into the backend. But that is a topic for another article.
+                        <br><br>
+                        Until then, I hope this article clears the concept regarding the front-end.
+                        <br><br>
+                        Thank You.
+                    </p>
+                    <br>
+                    <h5 class="font-weight-normal">Explore More Topics </h5>
+                    <div class=" justify-content-between">
+                        <a href="/blog/1">What is Programming?</a> | 
+                        <a href="/blog/3">An Accomplished Programmer!</a>
+                    </div>
+                    <br>
+                    <br> 
+            </div>
+        </div>
+
+
+
+
+
+
+<%- include('footer') %>
